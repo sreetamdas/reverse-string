@@ -1,0 +1,30 @@
+{
+	"name": "get-reversed-string",
+	"version": "0.0.1",
+	"main": "index.js",
+	"repository": "git@github.com:sreetamdas/get-reversed-string.git",
+	"author": "Sreetam Das <sreetamdas@gmail.com>",
+	"license": "MIT",
+	"description": "Get reversed string: \"My Name is Sreetam\" => \"mateers si eman ym\"",
+	"scripts": {
+		"start": "webpack",
+		"test": "jest --watch",
+		"dev": "webpack-dev-server --content-base dist",
+		"lint": "eslint ./src --ext .js",
+		"build": "webpack --mode=production"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.0",
+		"@types/jest": "^24.0.18",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.6",
+		"babel-preset-env": "^1.7.0",
+		"eslint": "^6.3.0",
+		"eslint-loader": "^3.0.0",
+		"jest": "^24.9.0",
+		"jest-cli": "^24.9.0",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.8",
+		"webpack-dev-server": "^3.8.0"
+	}
+}
