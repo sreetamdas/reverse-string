@@ -1,6 +1,6 @@
 {
 	"name": "reverse-string",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"main": "index.js",
 	"repository": "git@github.com:sreetamdas/reverse-string.git",
 	"author": "Sreetam Das <sreetamdas@gmail.com>",
