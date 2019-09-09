@@ -1,9 +1,10 @@
-const getReverseString = string => {
+const reverseString = string => {
 	// const a = "";
 	return string
+		.toLowerCase()
 		.split("")
 		.reverse()
 		.join("");
 };
 
-export default getReverseString;
+export default reverseString;

@@ -1,8 +1,8 @@
 {
-	"name": "get-reversed-string",
+	"name": "reverse-string",
 	"version": "0.0.1",
 	"main": "index.js",
-	"repository": "git@github.com:sreetamdas/get-reversed-string.git",
+	"repository": "git@github.com:sreetamdas/reverse-string.git",
 	"author": "Sreetam Das <sreetamdas@gmail.com>",
 	"license": "MIT",
 	"description": "Get reversed string: \"My Name is Sreetam\" => \"mateers si eman ym\"",
