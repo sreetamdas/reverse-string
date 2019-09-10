@@ -7,15 +7,11 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, "dist"),
 		filename: "bundle.js",
+		// library: "reverseString",
+		libraryTarget: "umd",
 	},
 	module: {
 		rules: [
-			{
-				enforce: "pre",
-				test: /\.js$/,
-				exclude: /node_modules/,
-				use: "eslint-loader",
-			},
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
