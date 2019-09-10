@@ -1,7 +1,7 @@
 {
 	"name": "reverse-string",
 	"version": "0.1.0",
-	"main": "index.js",
+	"main": "dist/bundle.js",
 	"repository": "git@github.com:sreetamdas/reverse-string.git",
 	"author": "Sreetam Das <sreetamdas@gmail.com>",
 	"license": "MIT",
